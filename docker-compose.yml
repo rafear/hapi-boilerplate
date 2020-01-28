@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  app:
+    image: app
+    container_name: app-chart
+    build: .
+    ports:
+      - 3000:3000
+    command: npm start 
+    restart: always
+    environment:
+      - NODE_ENV=dev
+      - JWT_SECRET=MINHA_SENHA_SECRETA
+      - PORT=3000
+      - SALT=3
+      - MONGODB_URL=mongodb://mongo:27017/testa
+
+
+      
+     
+
+
+
+
+    
