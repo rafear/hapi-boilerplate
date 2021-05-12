@@ -54,7 +54,7 @@
 		"node-nlp": "^3.2.0",
 		"node-pre-gyp": "^0.12.0",
 		"node-sass": "^4.12.0",
-		"nodemailer": "^6.3.0",
+		"nodemailer": "^6.4.16",
 		"path-dirname": "^1.0.2",
 		"pg": "^7.14.0",
 		"pm2": "^3.2.9",
